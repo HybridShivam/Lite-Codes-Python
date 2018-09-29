@@ -4,5 +4,3 @@ for i in range(row):#hybrid
     mylist=["{0:5}".format(int(mylist[j])+int(mylist[j+1])) for j in range(len(mylist)-1)]
     mylist.append("{0:5}".format(1))
     mylist.insert(0,"{0:5}".format(1))
-        
-    
